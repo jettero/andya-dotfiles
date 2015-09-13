@@ -1,0 +1,11 @@
+=head1 SUPZ?
+
+AndyA has some really cool scripts in his dotfiles repo, but I only wanted a
+couple things -- really, just ls-colors-linux-to-bsd for starters.
+
+So I made this branch, did a few fancy git filter-branch cuts on it and well,
+here's this.
+
+=head1 Andy, who?
+
+(Look and see who I forked this from on github.com/jettero/andy-dotfiles)
