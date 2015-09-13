@@ -8,7 +8,7 @@ use warnings;
 my $LS_COLORS = $ARGV[0] // $ENV{LS_COLORS}
  // die "Please supply a colour spec to translate\n";
 
-say 'export LSCOLOR="', xlate_colour( $LS_COLORS ), '"';
+say 'export LSCOLORS="', xlate_colour( $LS_COLORS ), '"';
 
 sub xlate_colour {
   my $linux = shift;
